@@ -12,7 +12,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/maxmind/geoipupdate/v6/internal/vars"
+	"github.com/maxmind/geoipupdate/v7/internal/vars"
 )
 
 // Config is a parsed configuration file.
@@ -37,7 +37,7 @@ type Config struct {
 	PreserveFileTimes bool
 	// Parallelism defines the number of concurrent downloads that
 	// can be triggered at the same time. It defaults to 1, which
-	// wouldn't change the existing behaviour of downloading files
+	// wouldn't change the existing behavior of downloading files
 	// sequentially.
 	Parallelism int
 	// Proxy is host name or IP address of a proxy server.
