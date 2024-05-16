@@ -60,7 +60,7 @@ geoipupdate:
   image:
     registry: ghcr.io
     repository: maxmind/geoipupdate
-    tag: v6.1
+    tag: v7.0.1
     digest: ""
     ## Specify a imagePullPolicy
     ## Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent'

@@ -69,7 +69,7 @@ The command removes all the Kubernetes components associated with the chart and 
 |:----------|:------------------------|:---------------|
 | `image.registry` | GeoIP Update image registry | `ghcr.io` |
 | `image.repository` | GeoIP Update image repository | `maxmind/geoipupdate` |
-| `image.tag` | GeoIP Update image tag (immutable tags are recommended) | `v6.1` |
+| `image.tag` | GeoIP Update image tag (immutable tags are recommended) | `v7.0.1` |
 | `image.digest` | GeoIP Update image digest in the way sha256:aa.... Please note this parameter, if set, will override the tag image tag (immutable tags are recommended) | `""` |
 | `image.pullPolicy` | Specify a imagePullPolicy. Defaults to 'Always' if image tag is 'latest', else set to 'IfNotPresent' | `IfNotPresent` |
 | `image.pullSecrets` | Optionally specify an array of imagePullSecrets. Secrets must be manually created in the namespace | `[]` |
